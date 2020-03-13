@@ -1,0 +1,92 @@
+body {
+  background-color: #e2e7ec;
+}
+[class="col-4"],
+[class="col-8"] {
+  margin: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.mainer {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.col-8 {
+  max-width: 740px;
+}
+img {
+  width: 100%;
+  z-index: 1;
+}
+.col-8:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0.1) 0%,
+    rgb(0, 0, 0, 0.8) 100%
+  );
+  width: 100%;
+  height: 100%;
+}
+.text span:first-child {
+  position: absolute;
+  display: block;
+  bottom: 135px;
+  left: 45px;
+  font-size: 13px;
+  color: #adaca9;
+  z-index: 3;
+}
+.text span:nth-child(2),
+.text span:last-child {
+  position: absolute;
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  bottom: 90px;
+  left: 45px;
+  z-index: 3;
+  text-transform: uppercase;
+}
+.text span:last-child {
+  bottom: 50px;
+}
+.col-4 {
+  max-width: 360px;
+  min-height: 540px;
+  background: #fff;
+  position: relative;
+}
+.one-girl > img {
+  width: 100%;
+}
+
+.block-content {
+  padding: 27px 28px 25px 28px;
+  text-transform: uppercase;
+}
+.date {
+  font-size: 13px;
+  color: #818181;
+}
+.discription {
+  font-size: 22px;
+  color: #1d1d1d;
+  margin: 20px 0 0 0;
+}
+.face {
+  background-image: url(../img/face.png);
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+footer {
+  font-size: 13px;
+  text-align: center;
+  color: #9eaab4;
+  padding: 85px 0;
+}

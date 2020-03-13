@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "hans";
+  src: url(../fonts/hanskendrick-regular.otf);
+  src: url(../fonts/hanskendrick-regular.otf) format("embedded-opentype");
+}
